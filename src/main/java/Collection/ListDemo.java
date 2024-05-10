@@ -9,9 +9,10 @@ public class ListDemo {
     public static void main(String[] args) {
         List l = new ArrayList();
         l.add(100);
-        l.add(100);
+        l.add(100); //duplicate values allowed
         l.add(200);
-        l.add(null);
+        l.add(null); //
+        l.add(null); // duplicate null values allowed
 
         List l1 = new ArrayList();
         l1.add(600);
