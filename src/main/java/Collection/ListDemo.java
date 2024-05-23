@@ -14,7 +14,7 @@ public class ListDemo {
         l.add(200);
         l.add(null); //
         l.add(null); // duplicate null values allowed
-
+        System.out.println(l);
         List l1 = new ArrayList();
         l1.add(600);
         l1.addAll(l);
