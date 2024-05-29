@@ -10,12 +10,12 @@ public class HashMapDemo {
 
         HashMap<Integer , String> hm = new HashMap();
 
-        hm.put(102, 203);
+//        hm.put(102, 203);
 //        hm.put(10, "deepraj");
         hm.put(11, null);
         hm.put(201, null);
         hm.put(null, null);
-        hm.put(null, 202);
+//        hm.put(null, 202);
 //        hm.put(101,101);
 //        hm.put("deep", "full");
 
